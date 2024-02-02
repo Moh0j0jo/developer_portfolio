@@ -56,6 +56,9 @@ section :where(button){
 
 @media only screen and (min-width: 800px){
 
+  section {
+    padding: 0 50px;
+  }
   .home-wrapper {
     display: flex;
     flex-direction: row;
@@ -93,7 +96,7 @@ section :where(button){
     #S2,
     #S3{
       width: 50%;
-      padding: 20px;
+      padding: 50px;
     }
 
     #S2 > img,
@@ -103,7 +106,7 @@ section :where(button){
 
     #S4 {
       display: block;
-      padding: 50px 20px;
+      padding: 50px 50px;
       column-count: 2;
       column-gap:  100px;
     }
